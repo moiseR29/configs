@@ -15,10 +15,10 @@ nmap <leader>w :w<CR>
 nmap <leader>q :q<CR>
 
 "resize de ventanas"
-nnoremap <silent> <right> :vertical resize +5<CR>
-nnoremap <silent> <left> :vertical resize -5<CR>
-nnoremap <silent> <up> :resize -5<CR>
-nnoremap <silent> <down> :resize +5<CR>
+nnoremap <silent> <right> :vertical resize +3<CR>
+nnoremap <silent> <left> :vertical resize -3<CR>
+nnoremap <silent> <up> :resize -3<CR>
+nnoremap <silent> <down> :resize +3<CR>
 
 
 "abrit terminal
