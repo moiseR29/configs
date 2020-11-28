@@ -27,6 +27,9 @@ Plug 'jiangmiao/auto-pairs'
 Plug 'ddollar/nerdcommenter'
 "Plug 'honza/vim-snippets'
 
+" Multicursor
+Plug 'mg979/vim-visual-multi', { 'branch': 'master' }
+
 " Navigate
 Plug 'scrooloose/nerdtree'
 Plug 'Xuyuanp/nerdtree-git-plugin'
