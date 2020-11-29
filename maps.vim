@@ -22,8 +22,8 @@ nnoremap <silent> <down> :resize +3<CR>
 
 
 "abrit terminal
-vnoremap <c-t> :split<CR>:ter<CR>
-nnoremap <c-t> :split<CR>:ter<CR>
+"vnoremap <c-t> :split<CR>:ter<CR>
+"nnoremap <c-t> :split<CR>:ter<CR>
 
 "moverse entre los buffer"
 nnoremap <leader>l :bnext<CR>

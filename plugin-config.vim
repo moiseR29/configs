@@ -51,8 +51,12 @@ let g:coc_global_extensions = [
   \ 'coc-tsserver',
   \ 'coc-eslint',
   \ 'coc-prettier',
-  \ 'coc-json'
+  \ 'coc-json',
+  \ 'coc-python'
   \ ]
+
+vnoremap <c-t> <Plug>(coc-terminal-toggle)
+nnoremap <c-t> <Plug>(coc-terminal-toggle)
 
 " TextEdit might fail if hidden is not set.
 set hidden
