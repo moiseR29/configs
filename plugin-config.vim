@@ -55,8 +55,8 @@ let g:coc_global_extensions = [
   \ 'coc-python'
   \ ]
 
-vnoremap <c-t> <Plug>(coc-terminal-toggle)
-nnoremap <c-t> <Plug>(coc-terminal-toggle)
+vnoremap <C-t> :CocCommand terminal.Toggle<CR>  
+nnoremap <C-t> :CocCommand terminal.Toggle<CR>  
 
 " TextEdit might fail if hidden is not set.
 set hidden

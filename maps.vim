@@ -26,8 +26,10 @@ nnoremap <silent> <down> :resize +3<CR>
 "nnoremap <c-t> :split<CR>:ter<CR>
 
 "moverse entre los buffer"
-nnoremap <leader>l :bnext<CR>
-nnoremap <leader>h :bprevious<CR>
+nnoremap <leader>l :tabn<CR>
+nnoremap <leader>h :tabp<CR>
+nmap <leader>1 :bp<CR>
+nmap <leader>2 :bn<CR>
 
 "cerrar buffer"
 nnoremap <leader>ww :bdelete<CR>
