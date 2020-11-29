@@ -31,6 +31,8 @@ nnoremap <leader>h :tabp<CR>
 nmap <leader>1 :bp<CR>
 nmap <leader>2 :bn<CR>
 
+" Out Terminal ctrl + \ && ctrl n
+
 "cerrar buffer"
 nnoremap <leader>ww :bdelete<CR>
 
