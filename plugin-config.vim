@@ -52,7 +52,8 @@ let g:coc_global_extensions = [
   \ 'coc-eslint',
   \ 'coc-prettier',
   \ 'coc-json',
-  \ 'coc-python'
+  \ 'coc-python',
+  \ 'coc-sql'
   \ ]
 
 vnoremap <C-t> :CocCommand terminal.Toggle<CR>  

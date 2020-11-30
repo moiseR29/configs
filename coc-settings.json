@@ -12,5 +12,6 @@
     "python"
   ],
   "python.linting.enabled": true,
-  "python.linting.pylintEnabled": true
+  "python.linting.pylintEnabled": true,
+  "sql.database": "postgresql"
 }
