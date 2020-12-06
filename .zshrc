@@ -120,8 +120,13 @@ export PATH=$PATH:$ANDROID_HOME/tools/bin
 export PATH=$PATH:$ANDROID_HOME/platform-tools
 
 #THIS MUST BE AT THE END OF THE FILE FOR SDKMAN TO WORK!!!
-export SDKMAN_DIR="/home/mrebatta29/.sdkman"
-[[ -s "/home/mrebatta29/.sdkman/bin/sdkman-init.sh" ]] && source "/home/mrebatta29/.sdkman/bin/sdkman-init.sh"
+export SDKMAN_DIR="$HOME/.sdkman"
+[[ -s "$HOME/.sdkman/bin/sdkman-init.sh" ]] && source "$HOME/.sdkman/bin/sdkman-init.sh"
 
 # Config alias
 source ~/configs/.alias
+
+# charge custom config by pc
+{
+source ~/configs/.configbypc
+} || {  }
