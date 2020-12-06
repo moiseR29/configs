@@ -19,10 +19,13 @@ Plug 'yggdroot/indentline'
 "Plug 'HerringtonDarkholme/yats.vim'
 Plug 'sheerun/vim-polyglot'
 
+" snippets
+"Plug 'sirver/ultisnips'
+
 " IDE
 Plug 'neoclide/coc.nvim', {'branch':'release'}
 Plug 'lilydjwg/colorizer'
-Plug 'mattn/emmet-vim'
+"Plug 'mattn/emmet-vim'
 Plug 'jiangmiao/auto-pairs'
 Plug 'ddollar/nerdcommenter'
 "Plug 'honza/vim-snippets'

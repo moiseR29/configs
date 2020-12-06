@@ -42,18 +42,41 @@ let g:NERDTreeIgnore=['^node_modules$']
 " Prettier
 command! -nargs=0 Prettier :CocCommand prettier.formatFile
 
-" Coc
-"------------------------------------------------------------------------------
+" ultiSnips
+"let g:UltiSnipsSnippetsDir='~/.config/nvim/UltiSnips'
+"let g:UltiSnipsExpandTrigger="<tab>"
+"let g:UltiSnipsJumpForwardTrigger="<tab>"
+"let g:UltiSnipsJumpBackwardTrigger="<S-tab>"
+
+inoremap <silent><expr> <TAB>
+      \ pumvisible() ? coc#_select_confirm() :
+      \ coc#expandableOrJumpable() ? "\<C-r>=coc#rpc#request('doKeymap', ['snippets-expand-jump',''])\<CR>" :
+      \ <SID>check_back_space() ? "\<TAB>" :
+      \ coc#refresh()
+
+function! s:check_back_space() abort
+  let col = col('.') - 1
+  return !col || getline('.')[col - 1]  =~# '\s'
+endfunction
+
+let g:coc_snippet_next = '<tab>'
+
+" coc
+autocmd FileType python let b:coc_suggest_disable = 1
+autocmd FileType javascript let b:coc_suggest_disable = 1
+autocmd FileType scss setl iskeyword+=@-@
 
 " CocCommand snippets.editSnippets
+
+" CocInstall
+" coc-terminal coc-snippets coc-prettier coc-eslint coc-emmet coc-tsserver
+" coc-sql coc-python coc-json coc-html coc-css
+
 let g:coc_global_extensions = [
-  \ 'coc-snippets',
-  \ 'coc-tsserver',
   \ 'coc-eslint',
   \ 'coc-prettier',
   \ 'coc-json',
-  \ 'coc-python',
-  \ 'coc-sql'
+  \ 'coc-snippets'
   \ ]
 
 vnoremap <C-t> :CocCommand terminal.Toggle<CR>  
