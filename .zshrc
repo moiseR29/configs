@@ -125,8 +125,3 @@ export SDKMAN_DIR="$HOME/.sdkman"
 
 # Config alias
 source ~/configs/.alias
-
-# charge custom config by pc
-{
-source ~/configs/.configbypc
-} || {  }
