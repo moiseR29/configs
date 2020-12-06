@@ -9,7 +9,10 @@
     "json",
     "javascriptreact",
     "typescript.tsx",
-    "python"
+    "python",
+    "html",
+    "css",
+    "markdown"
   ],
   "python.linting.enabled": true,
   "python.linting.pylintEnabled": true,
