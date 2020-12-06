@@ -2,7 +2,8 @@
 export PATH=$HOME/bin:/usr/local/bin:$PATH
 
 # Path to your oh-my-zsh installation.
-export ZSH="/home/mrebatta29/.oh-my-zsh"
+export ZSH=$HOME/.oh-my-zsh
+#export ZSH="/home/mrebatta29/.oh-my-zsh"
 
 # Set name of the theme to load --- if set to "random", it will
 # load a random theme each time oh-my-zsh is loaded, in which case,
@@ -111,28 +112,6 @@ case $TERM in
     ;;
 esac
 
-# my alias custom
-alias update_console="source ~/.zshrc"
-alias move_branch="git fetch && git checkout " 
-alias os_version="neofetch"
-alias circle-local="circleci local execute --job "
-alias circle-valid="circleci config validate"
-alias ngrok_up="cd && cd infra && ./ngrok http "
-alias update_ubuntu="sudo apt-get update && sudo apt-get upgrade -y"
-alias view_devices="adb devices"
-alias tcp_ports="adb reverse tcp:9099 tcp:9099"
-#alias tap_dev_tunnel="tap --key ~/.ssh/mrebatta@auntap.com --connection db-core --username mrebatta"
-#alias tap_prod="cd /home/mrebatta29/.pems && ssh -i "vm-for-testing.pem" ubuntu@ec2-3-228-25-180.compute-1.amazonaws.com"
-#alias bind_prod="cd /home/mrebatta29/.pems && ssh -i "BIND-PROD.pem" ubuntu@ec2-52-54-57-4.compute-1.amazonaws.com"
-
-# my alias tap custom
-alias gire_vpn="cd /home/mrebatta29/.pems && ssh -i "vpn-gire-qa.pem" ubuntu@ec2-34-237-9-48.compute-1.amazonaws.com"
-alias card_prod="aws-vault exec tap-prod -- awslogs get tap-prod-card-gateway-logs tap-prod-card-gateway-v1-0\/card-gateway --watch --start='92h ago'"
-alias em_prod="aws-vault exec tap-prod -- awslogs get tap-prod-event-manager-logs tap-prod-event-manager-v1-0\/event-manager --watch --start='92h ago'"
-alias ledger_prod="aws-vault exec tap-prod -- awslogs get tap-prod-ledger-gateway-logs tap-prod-ledger-gateway-v1-0\/ledger-gateway --watch --start='92h ago'"
-alias app_prod="aws-vault exec tap-prod -- awslogs get tap-prod-app-gateway-logs tap-prod-app-gateway-v1-0\/app-gateway --watch"
-
-
 # Custom PATHS
 export ANDROID_HOME=$HOME/Android/Sdk
 export PATH=$PATH:$ANDROID_HOME/emulator
@@ -143,3 +122,6 @@ export PATH=$PATH:$ANDROID_HOME/platform-tools
 #THIS MUST BE AT THE END OF THE FILE FOR SDKMAN TO WORK!!!
 export SDKMAN_DIR="/home/mrebatta29/.sdkman"
 [[ -s "/home/mrebatta29/.sdkman/bin/sdkman-init.sh" ]] && source "/home/mrebatta29/.sdkman/bin/sdkman-init.sh"
+
+# Config alias
+source ~/configs/.alias

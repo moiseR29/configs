@@ -1,0 +1,11 @@
+# my alias custom
+alias update_console="source ~/.zshrc"
+alias move_branch="git fetch && git checkout " 
+alias os_version="neofetch"
+alias circle-local="circleci local execute --job "
+alias circle-valid="circleci config validate"
+alias ngrok_up="cd && cd infra && ./ngrok http "
+alias update_ubuntu="sudo apt-get update && sudo apt-get upgrade -y"
+alias view_devices="adb devices"
+alias tcp_ports="adb reverse tcp:9099 tcp:9099"
+alias nv="nvim ."
