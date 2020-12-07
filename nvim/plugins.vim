@@ -9,7 +9,7 @@ Plug 'junegunn/gv.vim'
 " Themes 
 "Plug 'morhetz/gruvbox'
 Plug 'ayu-theme/ayu-vim'
-Plug 'joshdick/onedark.vim'
+"Plug 'joshdick/onedark.vim'
 "Plug 'mhartington/oceanic-next'
 
 " Syntax
@@ -21,6 +21,9 @@ Plug 'sheerun/vim-polyglot'
 
 " snippets
 "Plug 'sirver/ultisnips'
+
+" python
+Plug 'davidhalter/jedi-vim'
 
 " IDE
 Plug 'neoclide/coc.nvim', {'branch':'release'}

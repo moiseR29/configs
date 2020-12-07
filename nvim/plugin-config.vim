@@ -4,8 +4,8 @@ colorscheme ayu
 " Lightline
 let g:lightline = {
       \ 'active': {
-      \   'left': [['mode', 'paste'], [], ['relativepath', 'modified']],
-      \   'right': [['kitestatus'], ['filetype', 'percent', 'lineinfo'], ['gitbranch']]
+      \   'left': [['mode', 'paste'], ['gitbranch'], ['relativepath', 'modified']],
+      \   'right': [['kitestatus'], ['filetype', 'percent', 'lineinfo'], []]
       \ },
       \ 'inactive': {
       \   'left': [['inactive'], ['relativepath']],
@@ -19,7 +19,7 @@ let g:lightline = {
       \   'gitbranch': 'fugitive#head',
       \   'kitestatus': 'kite#statusline'
       \ },
-      \ 'colorscheme': 'onedark',
+      \ 'colorscheme': 'wombat',
       \ 'subseparator': {
       \   'left': '',
       \   'right': ''
