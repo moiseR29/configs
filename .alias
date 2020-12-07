@@ -12,3 +12,8 @@ alias nv="nvim ."
 
 alias run-emu="$ANDROID_HOME/tools/emulator @pixel2"
 alias docker_perm="sudo chown $USER /var/run/docker.sock"
+
+# python envs
+alias env_create="python3 -m venv venv"
+alias env_active=". venv/bin/activate"
+alias env_desactive="deactivate"
