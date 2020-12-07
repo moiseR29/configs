@@ -62,7 +62,7 @@ endfunction
 let g:coc_snippet_next = '<tab>'
 
 " coc
-autocmd FileType python let b:coc_suggest_disable = 1
+"autocmd FileType python let b:coc_suggest_disable = 1
 autocmd FileType javascript let b:coc_suggest_disable = 1
 autocmd FileType scss setl iskeyword+=@-@
 
@@ -70,7 +70,7 @@ autocmd FileType scss setl iskeyword+=@-@
 
 " CocInstall
 " coc-terminal coc-snippets coc-prettier coc-eslint coc-emmet coc-tsserver
-" coc-sql coc-python coc-json coc-html coc-css
+" coc-sql (out)coc-python coc-json coc-html coc-css
 
 let g:coc_global_extensions = [
   \ 'coc-eslint',
