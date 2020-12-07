@@ -11,4 +11,4 @@ alias tcp_ports="adb reverse tcp:9099 tcp:9099"
 alias nv="nvim ."
 
 alias run-emu="$ANDROID_HOME/tools/emulator @pixel2"
-alias docker_perm="sudo chown $USER /var/run/docer.sock"
+alias docker_perm="sudo chown $USER /var/run/docker.sock"
