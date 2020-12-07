@@ -41,7 +41,7 @@ nnoremap <leader>ww :bdelete<CR>
 nnoremap <leader>t :tabe<CR>
 
 "hacer un split vertical"
-nnoremap <leader>r :vsp
+nnoremap <leader>r :vs
 nnoremap <leader>b :sp
 
 nmap <leader>fs <Plug>(easymotion-s2)
