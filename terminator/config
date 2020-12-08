@@ -1,13 +1,23 @@
 [global_config]
-  title_hide_sizetext = True
-  title_inactive_bg_color = "#000000"
-  title_inactive_fg_color = "#eeeeec"
-  title_receive_bg_color = "#000000"
-  title_receive_fg_color = "#eeeeec"
-  title_transmit_bg_color = "#000000"
-  title_use_system_font = False
   window_state = maximise
+  title_hide_sizetext = True
+  title_transmit_bg_color = "#000000"
+  title_receive_fg_color = "#eeeeec"
+  title_receive_bg_color = "#000000"
+  title_inactive_fg_color = "#eeeeec"
+  title_inactive_bg_color = "#000000"
+  title_use_system_font = False
 [keybindings]
+[profiles]
+  [[default]]
+    icon_bell = False
+    background_darkness = 0.78
+    background_type = transparent
+    cursor_color = "#aaaaaa"
+    show_titlebar = False
+    scrollback_lines = 2000
+    scrollback_infinite = True
+    copy_on_selection = True
 [layouts]
   [[default]]
     [[[child1]]]
@@ -18,12 +28,3 @@
       parent = ""
       type = Window
 [plugins]
-[profiles]
-  [[default]]
-    background_darkness = 0.78
-    background_type = transparent
-    copy_on_selection = True
-    cursor_color = "#aaaaaa"
-    icon_bell = False
-    scrollback_infinite = True
-    scrollback_lines = 2000
