@@ -6,7 +6,7 @@
   title_receive_fg_color = "#eeeeec"
   title_transmit_bg_color = "#000000"
   title_use_system_font = False
-  window_state = fullscreen
+  window_state = maximise
 [keybindings]
 [layouts]
   [[default]]
