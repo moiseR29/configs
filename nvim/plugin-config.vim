@@ -38,6 +38,9 @@ let NERDTreeShowHidden=1
 let NERDTreeAutoDeleteBuffer=1
 let g:NERDTreeGitStatusWithFlags=1
 let g:NERDTreeIgnore=['^node_modules$']
+let NerdTreeShowLineNumbers=1
+
+autocmd FileType nerdtree setlocal relativenumber
 
 " Prettier
 command! -nargs=0 Prettier :CocCommand prettier.formatFile
