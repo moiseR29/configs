@@ -12,7 +12,7 @@ noremap <right> <nop>
 
 "guardar archivo"
 nmap <leader>w :w<CR>
-nmap <leader>q :q<CR>
+"nmap <leader>q :q<CR>
 
 "resize de ventanas"
 nnoremap <silent> <right> :vertical resize +3<CR>
