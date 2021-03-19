@@ -1,6 +1,8 @@
 let ayucolor="dark"
 colorscheme ayu
 
+let g:closetag_filenames = '*.html,*.js,*.jsx,*.ts,*.tsx'
+
 " Lightline
 let g:lightline = {
       \ 'active': {
@@ -76,9 +78,9 @@ autocmd FileType scss setl iskeyword+=@-@
 " coc-sql (out)coc-python coc-json coc-html coc-css
 
 let g:coc_global_extensions = [
-  \ 'coc-eslint',
-  \ 'coc-prettier',
-  \ 'coc-json',
+  "\ 'coc-eslint',
+  "\ 'coc-prettier',
+  "\ 'coc-json',
   \ 'coc-snippets'
   \ ]
 

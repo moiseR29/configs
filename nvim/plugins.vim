@@ -3,34 +3,35 @@ call plug#begin('~/.vim/plugged')
 " Git Integration
 Plug 'mhinz/vim-signify'
 Plug 'tpope/vim-fugitive'
-Plug 'tpope/vim-rhubarb'
 Plug 'junegunn/gv.vim'
+" Plug 'tpope/vim-rhubarb'
 
 " Themes 
-"Plug 'morhetz/gruvbox'
 Plug 'ayu-theme/ayu-vim'
+"Plug 'morhetz/gruvbox'
 "Plug 'joshdick/onedark.vim'
 "Plug 'mhartington/oceanic-next'
 
 " Syntax
 Plug 'yggdroot/indentline'
+Plug 'sheerun/vim-polyglot'
 "Plug 'leafgarland/typescript-vim'
 "Plug 'pangloss/vim-javascript'
 "Plug 'HerringtonDarkholme/yats.vim'
-Plug 'sheerun/vim-polyglot'
 
 " snippets
 "Plug 'sirver/ultisnips'
 
 " python
-Plug 'davidhalter/jedi-vim'
+" Plug 'davidhalter/jedi-vim'
 
 " IDE
 Plug 'neoclide/coc.nvim', {'branch':'release'}
 Plug 'lilydjwg/colorizer'
-"Plug 'mattn/emmet-vim'
+Plug 'mattn/emmet-vim'
 Plug 'jiangmiao/auto-pairs'
 Plug 'ddollar/nerdcommenter'
+Plug 'styled-components/vim-styled-components', { 'branch': 'main' }
 "Plug 'honza/vim-snippets'
 
 " Multicursor
@@ -42,10 +43,10 @@ Plug 'Xuyuanp/nerdtree-git-plugin'
 Plug 'tiagofumo/vim-nerdtree-syntax-highlight'
 Plug 'ryanoasis/vim-devicons'
 Plug 'christoomey/vim-tmux-navigator'
-Plug 'easymotion/vim-easymotion'
 Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
 Plug 'junegunn/fzf.vim'
 Plug 'jremmen/vim-ripgrep'
+" Plug 'easymotion/vim-easymotion'
 
 " Bar
 Plug 'itchyny/lightline.vim'

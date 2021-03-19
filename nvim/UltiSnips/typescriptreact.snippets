@@ -1,0 +1,30 @@
+snippet clg "console.log()" b
+console.log(${1:'$2'});
+endsnippet
+
+snippet imp "import from ''" b
+import ${2:{ $3 }} from '$1';
+endsnippet
+
+snippet it "it('', () => {})" b
+it('$1', () => {
+  $2
+})
+endsnippet
+
+snippet desc "describe('', () => {})" b
+describe('$1', () => {
+  $2
+})
+endsnippet
+
+snippet imr "React function component" b
+import React from 'react'
+
+const $1 = ${2:( $3 )} => (
+  <$4>
+    $5
+  </$4>
+)
+export default $1
+endsnippet
