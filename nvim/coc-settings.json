@@ -17,5 +17,6 @@
   "python.linting.enabled": true,
   "python.linting.pylintEnabled": true,
   "python.jediEnabled": false,
+  "python.analysis.disabled": ["unresolved-import"],
   "sql.database": "postgresql"
 }
