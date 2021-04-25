@@ -75,7 +75,7 @@ autocmd FileType scss setl iskeyword+=@-@
 
 " CocInstall
 " coc-terminal coc-snippets coc-prettier coc-eslint coc-emmet coc-tsserver
-" coc-sql (out)coc-python coc-json coc-html coc-css
+" coc-sql (out)coc-python coc-json coc-html coc-css coc-tsserver
 
 let g:coc_global_extensions = [
   "\ 'coc-eslint',
