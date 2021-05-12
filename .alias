@@ -17,3 +17,6 @@ alias docker_perm="sudo chown $USER /var/run/docker.sock"
 alias env_create="python3 -m venv venv"
 alias env_active=". venv/bin/activate"
 alias env_desactive="deactivate"
+
+# PATH GO
+PATH=$PATH:/usr/local/go/bin
