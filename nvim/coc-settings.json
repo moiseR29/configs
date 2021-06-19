@@ -12,7 +12,8 @@
     "python",
     "html",
     "css",
-    "markdown"
+    "markdown",
+    "go"
   ],
   "python.linting.enabled": true,
   "python.linting.pylintEnabled": true,
