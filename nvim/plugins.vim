@@ -28,10 +28,10 @@ Plug 'sheerun/vim-polyglot'
 " IDE
 Plug 'neoclide/coc.nvim', {'branch':'release'}
 Plug 'lilydjwg/colorizer'
-Plug 'mattn/emmet-vim'
+"Plug 'mattn/emmet-vim'
 Plug 'jiangmiao/auto-pairs'
 Plug 'ddollar/nerdcommenter'
-Plug 'styled-components/vim-styled-components', { 'branch': 'main' }
+"Plug 'styled-components/vim-styled-components', { 'branch': 'main' }
 "Plug 'honza/vim-snippets'
 
 " Multicursor
@@ -52,6 +52,5 @@ Plug 'jremmen/vim-ripgrep'
 Plug 'itchyny/lightline.vim'
 "Plug 'vim-airline/vim-airline'
 "Plug 'vim-airline/vim-airline-themes'
-
 
 call plug#end()
