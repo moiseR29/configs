@@ -46,5 +46,6 @@ case $TERM in
     ;;
 esac
 
-# Config alias
-source ~/configs/.alias
+# Config extensions
+source ~/configs/scripts/.alias.sh
+source ~/configs/scripts/.functions.sh
