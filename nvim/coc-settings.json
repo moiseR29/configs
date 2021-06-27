@@ -17,6 +17,7 @@
   ],
   "python.linting.enabled": true,
   "python.linting.pylintEnabled": true,
+  "python.formatting.autopep8Args": ["--indent-size=2", "--ignore=E226,E302,E41"],
   "python.jediEnabled": false,
   "python.analysis.disabled": ["unresolved-import"],
   "sql.database": "postgresql"
