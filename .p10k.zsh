@@ -53,7 +53,7 @@
     # vpn_ip                # virtual private network indicator
     # load                  # CPU load
     # disk_usage            # disk usage
-    # ram                   # free RAM
+    ram                   # free RAM
     # swap                  # used swap
     todo                    # todo items (https://github.com/todotxt/todo.txt-cli)
     timewarrior             # timewarrior tracking status (https://timewarrior.net/)
@@ -469,6 +469,18 @@
 
   # Custom icon.
   # typeset -g POWERLEVEL9K_NIX_SHELL_VISUAL_IDENTIFIER_EXPANSION='⭐'
+
+  ###############[ docker_version ]################
+  # docker version.
+  #typeset -g POWERLEVEL9K_DOCKER_VERSION_FOREGROUND=31
+  POWERLEVEL9K_CUSTOM_DOCKER="echo -n '\xF0\x9F\x90\xB3' $(docker version --format "{{.Server.Version}}")"
+  POWERLEVEL9K_CUSTOM_DOCKER_FOREGROUND="blue"
+  #POWERLEVEL9K_CUSTOM_JAVASCRIPT_BACKGROUND="yellow"
+  # Show .NET version only when in a .NET project subdirectory.
+  #typeset -g POWERLEVEL9K_DOCKER_VERSION_PROJECT_ONLY=true
+  # Custom icon.
+  # typeset -g POWERLEVEL9K_DOCKER_VERSION_VISUAL_IDENTIFIER_EXPANSION='⭐'
+
 
   ##################################[ disk_usage: disk usage ]##################################
   # Colors for different levels of disk usage.
