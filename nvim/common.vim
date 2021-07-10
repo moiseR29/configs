@@ -27,3 +27,6 @@ set tabstop=2
 
 set noshowmode
 
+" Here because polyglot sholud by configurate before init plugin
+let g:polyglot_disabled = ['python']
+

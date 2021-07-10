@@ -18,6 +18,7 @@ Plug 'sheerun/vim-polyglot'
 "Plug 'leafgarland/typescript-vim'
 "Plug 'pangloss/vim-javascript'
 "Plug 'HerringtonDarkholme/yats.vim'
+Plug 'numirias/semshi', {'do': ':UpdateRemotePlugins'}
 
 " snippets
 "Plug 'sirver/ultisnips'

@@ -3,6 +3,11 @@ colorscheme ayu
 
 let g:closetag_filenames = '*.html,*.js,*.jsx,*.ts,*.tsx'
 
+" indentLine Configuration
+let g:indentLine_enabled = 0
+let g:indentLine_leadingSpaceEnabled = 1
+let g:indentLine_leadingSpaceChar = '·'
+
 " Lightline
 let g:lightline = {
       \ 'active': {
